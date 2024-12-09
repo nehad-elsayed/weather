@@ -1,0 +1,83 @@
+/********** start global */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: gray;
+    height: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #78279C;
+    border-radius: 10px;
+}
+
+
+:root {
+    --main-color: #9e39c9;
+
+}
+
+
+nav{
+    background-color: #510472;
+}
+.my-logo img {
+
+    margin-right: 1.5rem;
+}
+
+.my-logo h2 {
+    font-size: 10px;
+}
+
+.my-menu a {
+
+    color: white !important;
+    text-transform: capitalize;
+    transition: color 1s border-color 1s;
+    border: 2px solid transparent;
+    padding: 2px 20px;
+    border-radius: 25px;
+}
+
+.my-menu a:hover {
+    color: var(--main-color) !important;
+    border: 2px solid var(--main-color);
+
+}
+
+.my-menu li {
+    margin-inline: 15px;
+}
+
+.my-menu li .active {
+
+    color: #c87fe7 !important;
+    border: 2px solid var(--main-color);
+    padding: 2px 20px;
+    border-radius: 25px;
+}
+
+.main-navigation .menu-toggle:hover {
+
+    color: var(--main-color);
+}
+
+section .container h2{
+    font-size: 4rem;
+    color: #9e39c9;
+    
+}
+
+nav .container .mylink a {
+
+    padding-left: 15px;
+}
+section .dbox i {
+    width: 50px;
+    height: 50px;
+    background-color: #8459e8;
+    border-radius: 25px;
+}
+section .icon {
+    background-color: #8459e8;
+}

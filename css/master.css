@@ -1,0 +1,231 @@
+/********** start global */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: gray;
+    height: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #323544;
+    border-radius: 10px;
+}
+
+/********** start global */
+
+
+:root {
+    --main-color: #009AD8;
+
+}
+
+/********** start nav  */
+
+.my-logo img {
+
+    margin-right: 1.5rem;
+}
+
+.my-logo h2 {
+    font-size: 10px;
+}
+
+.my-menu a {
+
+    color: white !important;
+    text-transform: capitalize;
+    transition: color 1s border-color 1s;
+    border: 2px solid transparent;
+    padding: 2px 20px;
+    border-radius: 25px;
+}
+
+.my-menu a:hover {
+    color: var(--main-color) !important;
+    border: 2px solid var(--main-color);
+
+}
+
+.my-menu li {
+    margin-inline: 15px;
+}
+
+.my-menu li .active {
+
+    color: #009AD8 !important;
+    border: 2px solid var(--main-color);
+    padding: 2px 20px;
+    border-radius: 25px;
+}
+
+
+
+/********** end nav  */
+
+/************* stat header  */
+
+header {
+
+    background-image: url('../imgs/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header .search-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+header input {
+
+    width: 75%;
+    border-color: transparent;
+    outline: none;
+    height: 50px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+header .search-content button {
+
+    padding: 5px 30px;
+    position: relative;
+    right: 100px;
+    border-radius: 40px;
+    background-color: var(--main-color);
+    color: white;
+    transition: background-color 0.5s;
+}
+
+
+header .search-content button:hover {
+
+    background-color: #0884b4;
+    color: white;
+
+}
+
+
+header .content {
+
+    background-color: #323544;
+    color: rgb(237, 229, 229);
+
+}
+
+header .content .title {
+    background-color: #494d62;
+    padding: 5px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+header .content .number {
+    font-size: 2rem;
+}
+
+header .mist {
+    color: var(--main-color);
+    text-transform: capitalize;
+}
+
+header .content .details img {
+    width: 30px;
+    height: 30px;
+}
+
+header .content .middle-content {
+    background-color: #5e637c;
+}
+
+/****** end header  *****/
+
+/*** start footer  */
+
+footer {
+    background-color: #262936;
+    overflow: hidden;
+}
+
+footer .footer-content input {
+    width: 100%;
+    margin-block: 5px;
+
+    border-color: transparent;
+    outline: none;
+    height: 50px;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+
+footer .footer-content button {
+    padding: 5px 30px;
+    border-radius: 40px;
+    background-color: var(--main-color);
+    color: white;
+    transition: background-color 0.5s;
+    margin-block: .3125rem;
+}
+
+
+footer .footer-content button:hover {
+    background-color: #0884b4;
+    color: white;
+
+
+}
+
+footer .icons a {
+
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+
+}
+
+footer .icons a:hover {
+
+    color: white;
+    background-color: #009AD8;
+
+}
+
+
+
+/****** end footer  */
+
+@media (min-width:1199.98px) {
+
+    header {
+        height: 100vh;
+    }
+
+
+    header .content .number {
+        font-size: 3.428571rem;
+    }
+
+    footer .footer-content button {
+        margin-block: unset;
+    }
+
+    footer .footer-content input {
+        width: 70%;
+    }
+
+}
