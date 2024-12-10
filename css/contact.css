@@ -12,14 +12,16 @@
 
 
 :root {
-    --main-color: #9e39c9;
+    --main-color: #c065e7;
 
 }
 
 
-nav{
-    background-color: #510472;
+nav {
+    /* background-color: #9845bc81; */
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 151, 233, 1) 100%);
 }
+
 .my-logo img {
 
     margin-right: 1.5rem;
@@ -51,7 +53,7 @@ nav{
 
 .my-menu li .active {
 
-    color: #c87fe7 !important;
+    color: #5a1479 !important;
     border: 2px solid var(--main-color);
     padding: 2px 20px;
     border-radius: 25px;
@@ -62,22 +64,24 @@ nav{
     color: var(--main-color);
 }
 
-section .container h2{
+section .container h2 {
     font-size: 4rem;
     color: #9e39c9;
-    
+
 }
 
 nav .container .mylink a {
 
     padding-left: 15px;
 }
+
 section .dbox i {
     width: 50px;
     height: 50px;
     background-color: #8459e8;
     border-radius: 25px;
 }
+
 section .icon {
     background-color: #8459e8;
 }

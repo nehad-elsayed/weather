@@ -29,25 +29,24 @@ const months = [
   "December",
 ];
 
-// events ---->>>>
+getCountry("london");
+
+// Start events ---->>>>
 inputSearch.addEventListener("input", () => {
   searchData = inputSearch.value;
   getCountry(searchData);
 });
 
-btnSearch.addEventListener("click", function () {
+btnSearch.addEventListener("click", () => {
   searchData = inputSearch.value;
   getCountry(searchData);
 });
-// functions ---->>>>>
-
+// Start functions ---->>>>>
 async function getCountry(country) {
   try {
     let response = await fetch(
       `https://api.weatherapi.com/v1/forecast.json?key=beaa6830775a4e99910131438220406&q=${country}07112&days=3`
-      //   http://api.weatherapi.com/v1/forecast.json?key=19ee02755d0f4ab7ae4231651240412&q=${country}&days=3
     );
-
     finalResponse = await response.json();
     displayData();
   } catch (error) {

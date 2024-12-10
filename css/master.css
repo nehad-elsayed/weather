@@ -11,7 +11,9 @@
 }
 
 /********** start global */
-
+*::selection {
+    background-color: rgb(251, 231, 232);
+}
 
 :root {
     --main-color: #009AD8;
@@ -70,7 +72,7 @@ nav {
 
 header {
 
-    /* background-image: url('../imgs/banner.png'); */
+
     background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 151, 233, 1) 100%);
 
 
@@ -78,6 +80,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    height: 100vh;
 }
 
 header #tableData {
