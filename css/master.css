@@ -74,18 +74,18 @@ header {
 
 
     background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 151, 233, 1) 100%);
-
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    height: 100vh;
+
+
 }
 
 header #tableData {
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-
+    margin-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 header .search-content {
@@ -99,7 +99,7 @@ header .search-content {
 
 header input {
 
-    width: 75%;
+    width: 100%;
     border-color: transparent;
     background-color: white;
     color: #3dbef0;
@@ -111,9 +111,9 @@ header input {
 
 header .search-content button {
 
-    padding: 5px 30px;
+    padding: 11px 30px;
     position: relative;
-    right: 100px;
+    right: 3px;
     border-radius: 40px;
     background-color: var(--main-color);
     color: white;
@@ -193,6 +193,7 @@ footer .footer-content button {
     color: white;
     transition: background-color 0.5s;
     margin-block: .3125rem;
+    margin-left: 4px;
 }
 
 
@@ -234,11 +235,22 @@ footer p {
 /****** end footer  */
 
 @media (min-width:1199.98px) {
+    nav {
+        padding: 70px;
+    }
 
     header {
         height: 100vh;
     }
 
+    header #tableData {
+        margin-top: 70px;
+    }
+
+    header .search-content button {
+        right: 100px;
+        padding: 5px 30px;
+    }
 
     header .content .number {
         font-size: 3.428571rem;
