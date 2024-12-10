@@ -29,7 +29,7 @@ const months = [
   "December",
 ];
 
-getCountry("london");
+getCountry("cairo");
 
 // Start events ---->>>>
 inputSearch.addEventListener("input", () => {
